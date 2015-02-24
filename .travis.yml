@@ -23,6 +23,7 @@ branches:
     - develop
     - nshkorb-fix-ketama-test
 
+
 script:
   # skip these projects because they don't pass on travis-ci
   - echo skip ./sbt ++$TRAVIS_SCALA_VERSION finagle-http/test
